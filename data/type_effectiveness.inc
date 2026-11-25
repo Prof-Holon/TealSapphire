@@ -34,7 +34,7 @@ gTypeEffectiveness:: @ 81F9720
 	.byte    TYPE_GRASS,   TYPE_GROUND, 20
 	.byte    TYPE_GRASS,   TYPE_FLYING,  5
 	.byte    TYPE_GRASS,      TYPE_BUG,  5
-	.byte    TYPE_GRASS,     TYPE_ROCK, 20
+	.byte    TYPE_GRASS,     TYPE_ROCK, 10
 	.byte    TYPE_GRASS,   TYPE_DRAGON,  5
 	.byte    TYPE_GRASS,    TYPE_STEEL,  5
 	.byte      TYPE_ICE,    TYPE_WATER,  5
@@ -44,7 +44,7 @@ gTypeEffectiveness:: @ 81F9720
 	.byte      TYPE_ICE,   TYPE_FLYING, 20
 	.byte      TYPE_ICE,   TYPE_DRAGON, 20
 	.byte      TYPE_ICE,    TYPE_STEEL,  5
-	.byte      TYPE_ICE,     TYPE_FIRE,  5
+	.byte      TYPE_ICE,     TYPE_FIRE,  10
 	.byte TYPE_FIGHTING,   TYPE_NORMAL, 20
 	.byte TYPE_FIGHTING,      TYPE_ICE, 20
 	.byte TYPE_FIGHTING,   TYPE_POISON,  5
@@ -59,7 +59,7 @@ gTypeEffectiveness:: @ 81F9720
 	.byte   TYPE_POISON,   TYPE_GROUND,  5
 	.byte   TYPE_POISON,     TYPE_ROCK,  5
 	.byte   TYPE_POISON,    TYPE_GHOST,  5
-	.byte   TYPE_POISON,    TYPE_STEEL,  0
+	.byte   TYPE_POISON,    TYPE_BUG,  20
 	.byte   TYPE_GROUND,     TYPE_FIRE, 20
 	.byte   TYPE_GROUND, TYPE_ELECTRIC, 20
 	.byte   TYPE_GROUND,    TYPE_GRASS,  5
@@ -82,10 +82,10 @@ gTypeEffectiveness:: @ 81F9720
 	.byte      TYPE_BUG,     TYPE_FIRE,  5
 	.byte      TYPE_BUG,    TYPE_GRASS, 20
 	.byte      TYPE_BUG, TYPE_FIGHTING,  5
-	.byte      TYPE_BUG,   TYPE_POISON,  5
+	.byte      TYPE_BUG,   TYPE_POISON,  20
 	.byte      TYPE_BUG,   TYPE_FLYING,  5
 	.byte      TYPE_BUG,  TYPE_PSYCHIC, 20
-	.byte      TYPE_BUG,    TYPE_GHOST,  5
+	.byte      TYPE_BUG,    TYPE_GHOST,  20
 	.byte      TYPE_BUG,     TYPE_DARK, 20
 	.byte      TYPE_BUG,    TYPE_STEEL,  5
 	.byte     TYPE_ROCK,     TYPE_FIRE, 20
@@ -94,8 +94,8 @@ gTypeEffectiveness:: @ 81F9720
 	.byte     TYPE_ROCK,   TYPE_GROUND,  5
 	.byte     TYPE_ROCK,   TYPE_FLYING, 20
 	.byte     TYPE_ROCK,      TYPE_BUG, 20
-	.byte     TYPE_ROCK,    TYPE_STEEL,  5
-	.byte    TYPE_GHOST,   TYPE_NORMAL,  0
+	.byte     TYPE_ROCK,    TYPE_ROCK,  5
+	.byte    TYPE_GHOST,   TYPE_NORMAL,  5
 	.byte    TYPE_GHOST,  TYPE_PSYCHIC, 20
 	.byte    TYPE_GHOST,     TYPE_DARK,  5
 	.byte    TYPE_GHOST,    TYPE_STEEL,  5
@@ -109,7 +109,7 @@ gTypeEffectiveness:: @ 81F9720
 	.byte     TYPE_DARK,    TYPE_STEEL,  5
 	.byte    TYPE_STEEL,     TYPE_FIRE,  5
 	.byte    TYPE_STEEL,    TYPE_WATER,  5
-	.byte    TYPE_STEEL, TYPE_ELECTRIC,  5
+	.byte    TYPE_ROCK, TYPE_ELECTRIC,  5
 	.byte    TYPE_STEEL,      TYPE_ICE, 20
 	.byte    TYPE_STEEL,     TYPE_ROCK, 20
 	.byte    TYPE_STEEL,    TYPE_STEEL,  5
